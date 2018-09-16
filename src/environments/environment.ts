@@ -2,8 +2,18 @@
 // `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+
+
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyA5wm-LCpFWmHyEAZx8lpJAa4ELj7NTukE',
+    authDomain: 'scrum-f3a6a.firebaseapp.com',
+    databaseURL: 'https://scrum-f3a6a.firebaseio.com',
+    projectId: 'scrum-f3a6a',
+    storageBucket: 'scrum-f3a6a.appspot.com',
+    messagingSenderId: '600343139312'
+  }
 };
 
 /*
