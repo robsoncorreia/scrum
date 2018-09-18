@@ -56,6 +56,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
+import { MdlListaComponent } from './shared/mdl-lista/mdl-lista.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.co
     PostItComponent,
     MdlTabelaComponent,
     MdlNavComponent,
-    CadastroUsuarioComponent
+    CadastroUsuarioComponent,
+    MdlListaComponent
   ],
   imports: [
     BrowserAnimationsModule,

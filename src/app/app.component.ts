@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
+import { map, filter, catchError, mergeMap } from 'rxjs/operators';
+import { Item } from './model/item';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
